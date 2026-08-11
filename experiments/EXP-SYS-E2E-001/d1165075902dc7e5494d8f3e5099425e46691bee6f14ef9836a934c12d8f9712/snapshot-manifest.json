@@ -1,0 +1,25 @@
+{
+  "content_policy": "sanitized",
+  "effective_content_projection": "public_summary",
+  "execution_id": "system-validation-e2e-003",
+  "experiment_id": "EXP-SYS-E2E-001",
+  "files": [
+    {
+      "path": "preregistration.json",
+      "sha256": "b2580f22a6f31f3c92e939fbfb2f55cfae8b96ea040ed011725616cb955cba0a",
+      "size_bytes": 4525
+    }
+  ],
+  "moment": "preregistration",
+  "publication_policy": {
+    "content_policy": "sanitized",
+    "data_classification": "public",
+    "effective_content_projection": "public_summary",
+    "repository": "cognityx/cognityx-experiment-results",
+    "repository_visibility_policy": "public_summary",
+    "schema": "cognityx.research.publication-policy/v1"
+  },
+  "schema": "cognityx.research.snapshot/v1",
+  "snapshot_id": "d1165075902dc7e5494d8f3e5099425e46691bee6f14ef9836a934c12d8f9712",
+  "supersedes_snapshot_id": null
+}
