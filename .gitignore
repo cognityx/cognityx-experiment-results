@@ -1,0 +1,14 @@
+*.db
+*.sqlite*
+*.env
+.env*
+*.ckpt
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.pdf
+mlruns/
+checkpoints/
+adapters/
+telemetry/
