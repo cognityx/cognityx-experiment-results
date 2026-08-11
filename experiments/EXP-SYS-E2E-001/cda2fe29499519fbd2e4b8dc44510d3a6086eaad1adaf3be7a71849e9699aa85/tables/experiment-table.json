@@ -1,0 +1,26 @@
+[
+  {
+    "comparable_pairs": 0,
+    "control": "raw-control",
+    "effect_vs_control": null,
+    "experiment_id": "EXP-SYS-E2E-001",
+    "primary_metric": "grounded_correct",
+    "rate": null,
+    "replicates": 1,
+    "semantic_judge_cost": 0.0,
+    "treatment": "qualified-treatment",
+    "unresolved_pairs": 2
+  },
+  {
+    "comparable_pairs": 0,
+    "control": "raw-control",
+    "effect_vs_control": 0,
+    "experiment_id": "EXP-SYS-E2E-001",
+    "primary_metric": "grounded_correct",
+    "rate": null,
+    "replicates": 1,
+    "semantic_judge_cost": 0.0,
+    "treatment": "raw-control",
+    "unresolved_pairs": 2
+  }
+]

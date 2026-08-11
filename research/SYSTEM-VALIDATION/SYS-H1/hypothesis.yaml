@@ -1,0 +1,5 @@
+id: SYS-H1
+null_hypothesis: At least one lifecycle, provenance, publication, or resume boundary
+  does not complete safely.
+statement: The merged Cognityx pipeline can complete one tiny real lifecycle and resume
+  safely.

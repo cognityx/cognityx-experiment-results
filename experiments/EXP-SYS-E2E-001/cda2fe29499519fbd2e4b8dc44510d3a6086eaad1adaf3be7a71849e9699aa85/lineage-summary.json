@@ -1,0 +1,69 @@
+{
+  "checksums": {
+    "analysis": "edf583dc31fb825c80bbdd8a4a301f2fdb8cb629c9923dbe590acffc92b98977",
+    "execution_plan": "fe7862bff60e75647e9a39a735c4058b98f0bc8c65d7313ed6775d3214ce3cb1",
+    "research_spec": "be488c24c54995cbb48090b4b5216da5cc00a958b415c874986049a738ee9833"
+  },
+  "component_evidence": [
+    {
+      "manifest_checksum": "edf583dc31fb825c80bbdd8a4a301f2fdb8cb629c9923dbe590acffc92b98977",
+      "run_id": "EXP-SYS-E2E-001",
+      "step_id": "EXP-SYS-E2E-001:analyse"
+    },
+    {
+      "manifest_checksum": "ecc8993f5f9c755ec7440729c13d32bc7ea754d987a3b065aa0a73aaece0b1c0",
+      "run_id": "eval-ae1a2372123d63eba48324ff",
+      "step_id": "EXP-SYS-E2E-001:evaluate:qualified-treatment:11:paraphrase_evaluation"
+    },
+    {
+      "manifest_checksum": "268f90eddbfa64b0616d2017dd1ef5370dac0ac106a728d13bde8ee0fa58df0f",
+      "run_id": "eval-9716dcd665aa22ab30c66d3e",
+      "step_id": "EXP-SYS-E2E-001:evaluate:raw-control:11:paraphrase_evaluation"
+    },
+    {
+      "manifest_checksum": "3cff4294a6702d796786a16b0b0ae4821136890e8502ddeb0f519d39b32d9e5f",
+      "run_id": "pair-9d7b596995271a992ecc0e2e",
+      "step_id": "EXP-SYS-E2E-001:infer:qualified-treatment:11:paraphrase_evaluation"
+    },
+    {
+      "manifest_checksum": "74139d44f62241d181f1019809b45cff225623ca154f7502a2a3f88b71a484c6",
+      "run_id": "pair-e600c2388c31443fe51fed0c",
+      "step_id": "EXP-SYS-E2E-001:infer:raw-control:11:paraphrase_evaluation"
+    },
+    {
+      "manifest_checksum": "63039f2e643d6dc6424a147b3d83c22c4a8d4a0e55b68d2b390756b50c1dbc17",
+      "run_id": "runtime-742b869f56652f72099cabc7",
+      "step_id": "EXP-SYS-E2E-001:inference:start-or-reuse"
+    },
+    {
+      "manifest_checksum": "3a4d4d44f852ad256e384ff3db9ec791ee145b1c791c25a0114c46553bedcd45",
+      "run_id": "runtime-stop-fec784e0e45873df900d",
+      "step_id": "EXP-SYS-E2E-001:inference:stop"
+    },
+    {
+      "manifest_checksum": "2543bc3624d9ba6065fb393865077f580b4fabd60fa89192a94d703c74adb081",
+      "run_id": "df-dbc78fad8c6769e622181118",
+      "step_id": "EXP-SYS-E2E-001:prepare:qualified-treatment"
+    },
+    {
+      "manifest_checksum": "26f76ed8b8c3fc0ddd0e2023d5f36a58edf4b8e82572189c070a828f8f1621d4",
+      "run_id": "df-33acd426bbce44eee7e98102",
+      "step_id": "EXP-SYS-E2E-001:prepare:raw-control"
+    },
+    {
+      "manifest_checksum": "baa20ab388c5b22a62f64c2250192e001c0db5eb75cc8ea916580ecbe9b4039d",
+      "run_id": "trun-88a3d49cde49423f20a27a11",
+      "step_id": "EXP-SYS-E2E-001:train:qualified-treatment:11"
+    },
+    {
+      "manifest_checksum": "2c3e312690ddfff9b16a172f9b4d10630dda19ac7310d9e90a3af50d9e58c72a",
+      "run_id": "trun-63d430fb0e727d7e0da9aa98",
+      "step_id": "EXP-SYS-E2E-001:train:raw-control:11"
+    }
+  ],
+  "execution_id": "system-validation-e2e-007",
+  "experiment_id": "EXP-SYS-E2E-001",
+  "finding_id": "finding-9508612acf0e2a3e6f0fe2e4",
+  "research_lineage": null,
+  "schema": "cognityx.research.public-lineage/v1"
+}

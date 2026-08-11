@@ -1,0 +1,3 @@
+experiment_id,treatment,control,primary_metric,rate,effect_vs_control,replicates,comparable_pairs,unresolved_pairs,semantic_judge_cost
+EXP-SYS-E2E-001,qualified-treatment,raw-control,grounded_correct,,,1,0,2,0.0
+EXP-SYS-E2E-001,raw-control,raw-control,grounded_correct,,0,1,0,2,0.0

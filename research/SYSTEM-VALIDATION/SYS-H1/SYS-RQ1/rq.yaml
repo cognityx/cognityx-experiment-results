@@ -1,0 +1,4 @@
+hypothesis_id: SYS-H1
+id: SYS-RQ1
+question: Can one public synthetic fixture traverse DataForge, Training, Inference,
+  Evaluator, analysis, and the Git journal under frozen identities?
