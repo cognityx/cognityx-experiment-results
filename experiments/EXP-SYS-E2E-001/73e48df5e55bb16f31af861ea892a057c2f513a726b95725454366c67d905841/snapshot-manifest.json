@@ -1,0 +1,65 @@
+{
+  "content_policy": "sanitized",
+  "effective_content_projection": "public_summary",
+  "execution_id": "system-validation-e2e-008",
+  "experiment_id": "EXP-SYS-E2E-001",
+  "files": [
+    {
+      "path": "figure-data/treatment-effects.json",
+      "sha256": "d40d5953eb310a86ea4800f3a2f7645d610fdb96cb1c54bd6f9b174bb80717ed",
+      "size_bytes": 1470
+    },
+    {
+      "path": "finding.json",
+      "sha256": "85b2b9ecf5aa4208f7455261ccbbe3f12039df60ac0301b02c8df039c62f2270",
+      "size_bytes": 4634
+    },
+    {
+      "path": "finding.md",
+      "sha256": "493574f897e49f7d1b81ef2b438a7fa2574c3cad5d7717977cf322da3b463bd0",
+      "size_bytes": 882
+    },
+    {
+      "path": "lineage-summary.json",
+      "sha256": "d338ef9a556b9368f312b210c1cbe72c74f25e470b98aba116d0e9988bf67fe8",
+      "size_bytes": 2974
+    },
+    {
+      "path": "research-summary.json",
+      "sha256": "bab62bafd5fb84cb23d3b24e7908f9e394998b3da720cf301d63b00f7e6007a4",
+      "size_bytes": 6679
+    },
+    {
+      "path": "resources-summary.json",
+      "sha256": "b767a59eea93656d1b95a302f7bb9d49ee33938d6394c424bd86552c6c731299",
+      "size_bytes": 133
+    },
+    {
+      "path": "statistics.json",
+      "sha256": "68cc83ebac317aa446c9ed0a7a687c020b76afdcbc6ed7056ece8aad5a328786",
+      "size_bytes": 2201
+    },
+    {
+      "path": "tables/experiment-table.csv",
+      "sha256": "f10d6fff0aaceb2d10624dbaacb272595b48771fa6229756066c437a826dc916",
+      "size_bytes": 285
+    },
+    {
+      "path": "tables/experiment-table.json",
+      "sha256": "18666bc506dabb7bc40261c7164d3470c687384d8996df0834a3fb77b0281d71",
+      "size_bytes": 624
+    }
+  ],
+  "moment": "terminal",
+  "publication_policy": {
+    "content_policy": "sanitized",
+    "data_classification": "public",
+    "effective_content_projection": "public_summary",
+    "repository": "cognityx/cognityx-experiment-results",
+    "repository_visibility_policy": "public_summary",
+    "schema": "cognityx.research.publication-policy/v1"
+  },
+  "schema": "cognityx.research.snapshot/v1",
+  "snapshot_id": "73e48df5e55bb16f31af861ea892a057c2f513a726b95725454366c67d905841",
+  "supersedes_snapshot_id": null
+}

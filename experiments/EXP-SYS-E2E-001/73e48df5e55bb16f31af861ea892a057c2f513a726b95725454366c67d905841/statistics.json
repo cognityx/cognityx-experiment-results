@@ -1,0 +1,105 @@
+{
+  "cluster_bootstrap": {
+    "cluster_field": null,
+    "effects": {},
+    "samples": 0
+  },
+  "comparable_pair_count": 0,
+  "contrasts_from_control": {
+    "qualified-treatment": {
+      "control_rate": null,
+      "finalized_paired_count": 0,
+      "paired_delta": null,
+      "treatment_rate": null,
+      "unresolved_paired_count": 1
+    }
+  },
+  "control_id": "raw-control",
+  "deltas_from_control": {},
+  "experiment_id": "EXP-SYS-E2E-001",
+  "full_evaluation_unresolved_count": 2,
+  "interpretation_status": "human_review_required",
+  "per_seed_effects": {
+    "11": {}
+  },
+  "primary_endpoint_unresolved_count": 2,
+  "primary_metric": "grounded_correct",
+  "primary_role": "paraphrase_evaluation",
+  "role_diagnostics": {
+    "exact_recall": {
+      "count": 0,
+      "rate": null
+    },
+    "generalization": {
+      "count": 0,
+      "rate": null
+    },
+    "heldout_knowledge_unit": {
+      "count": 0,
+      "rate": null
+    },
+    "paraphrase_evaluation": {
+      "count": 0,
+      "rate": null
+    }
+  },
+  "schema": "cognityx.experiment.analysis/v1",
+  "secondary_role_summaries": {
+    "exact_recall": {
+      "count": 0,
+      "rate": null
+    },
+    "generalization": {
+      "count": 0,
+      "rate": null
+    },
+    "heldout_knowledge_unit": {
+      "count": 0,
+      "rate": null
+    },
+    "paraphrase_evaluation": {
+      "count": 0,
+      "rate": null
+    }
+  },
+  "semantic_judge_invocation_cost": 0.0,
+  "treatments": {
+    "qualified-treatment": {
+      "by_role": {
+        "exact_recall": {
+          "count": 0,
+          "rate": null
+        },
+        "heldout_knowledge_unit": {
+          "count": 0,
+          "rate": null
+        },
+        "paraphrase_evaluation": {
+          "count": 0,
+          "rate": null
+        }
+      },
+      "count": 0,
+      "rate": null
+    },
+    "raw-control": {
+      "by_role": {
+        "exact_recall": {
+          "count": 0,
+          "rate": null
+        },
+        "heldout_knowledge_unit": {
+          "count": 0,
+          "rate": null
+        },
+        "paraphrase_evaluation": {
+          "count": 0,
+          "rate": null
+        }
+      },
+      "count": 0,
+      "rate": null
+    }
+  },
+  "unresolved_count": 2
+}

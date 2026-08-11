@@ -1,0 +1,67 @@
+{
+  "cost_to_quality": {
+    "resources": {},
+    "semantic_judge_cost": 0.0
+  },
+  "effect_by_seed": [],
+  "experiment_id": "EXP-SYS-E2E-001",
+  "exploratory": true,
+  "grounded_correct_rate_by_treatment": [
+    {
+      "count": 0,
+      "rate": null,
+      "treatment": "qualified-treatment"
+    },
+    {
+      "count": 0,
+      "rate": null,
+      "treatment": "raw-control"
+    }
+  ],
+  "plot_recommendation": "insufficient_sample_size",
+  "role_specific_effects": [
+    {
+      "count": 0,
+      "effect_vs_control": null,
+      "rate": null,
+      "role": "exact_recall",
+      "treatment": "qualified-treatment"
+    },
+    {
+      "count": 0,
+      "effect_vs_control": null,
+      "rate": null,
+      "role": "heldout_knowledge_unit",
+      "treatment": "qualified-treatment"
+    },
+    {
+      "count": 0,
+      "effect_vs_control": null,
+      "rate": null,
+      "role": "paraphrase_evaluation",
+      "treatment": "qualified-treatment"
+    },
+    {
+      "count": 0,
+      "effect_vs_control": null,
+      "rate": null,
+      "role": "exact_recall",
+      "treatment": "raw-control"
+    },
+    {
+      "count": 0,
+      "effect_vs_control": null,
+      "rate": null,
+      "role": "heldout_knowledge_unit",
+      "treatment": "raw-control"
+    },
+    {
+      "count": 0,
+      "effect_vs_control": null,
+      "rate": null,
+      "role": "paraphrase_evaluation",
+      "treatment": "raw-control"
+    }
+  ],
+  "schema": "cognityx.experiment.figure-data/v1"
+}
