@@ -1,0 +1,137 @@
+{
+  "checksums": {
+    "execution_plan": "675fbdb4ab55d2aff5a3e2f6820f7c3ac2e7ca59332df8d55a3505e060875f94",
+    "logical_plan": "878ad8b4f09a17fb06320772d5562aca3bd80b7933611bcdaca2d98a64b00bb2",
+    "research_spec": "317533c1c6bc9d0fcaf9bac809352fab48c96c71d8b63828cd32cd58a8c551dd"
+  },
+  "experiment": {
+    "addresses": [
+      "SYS-RQ1"
+    ],
+    "design": {
+      "comparators": [],
+      "control": "raw-control",
+      "estimand": {
+        "contrast": "qualified-treatment-minus-raw-control",
+        "quality_claim_allowed": false,
+        "type": "lifecycle_only_treatment_contrast"
+      },
+      "evaluation_roles": [
+        "paraphrase_evaluation"
+      ],
+      "experimental_unit": "one public synthetic finance-policy fact group",
+      "primary_outcome": {
+        "direction": "higher_is_better",
+        "metric": "grounded_correct",
+        "role": "paraphrase_evaluation"
+      },
+      "research_profile": "system_validation_only",
+      "secondary_outcomes": [],
+      "seeds": [
+        11
+      ],
+      "stopping_rule": {
+        "replicates": 1,
+        "type": "fixed_replicates"
+      },
+      "treatments": [
+        {
+          "id": "raw-control",
+          "role": "control"
+        },
+        {
+          "id": "qualified-treatment",
+          "role": "treatment"
+        }
+      ],
+      "type": "controlled_comparison"
+    },
+    "id": "EXP-SYS-E2E-001",
+    "model": {
+      "name": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "tokenizer_checksum": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+      "tokenizer_revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "recipe": "training_treatment_comparison"
+  },
+  "hypotheses": [
+    {
+      "id": "SYS-H1",
+      "null_hypothesis": "At least one lifecycle, provenance, publication, or resume boundary does not complete safely.",
+      "statement": "The merged Cognityx pipeline can complete one tiny real lifecycle and resume safely."
+    }
+  ],
+  "publication_policy": {
+    "content_policy": "sanitized",
+    "data_classification": "public",
+    "effective_content_projection": "public_summary",
+    "repository": "cognityx/cognityx-experiment-results",
+    "repository_visibility_policy": "public_summary",
+    "schema": "cognityx.research.publication-policy/v1"
+  },
+  "research_area": {
+    "description": "Prove lifecycle, provenance, publication, and resume wiring without making a quality claim.",
+    "id": "SYSTEM-VALIDATION",
+    "title": "Merged Cognityx pipeline system validation"
+  },
+  "research_lineage": null,
+  "research_questions": [
+    {
+      "hypothesis_id": "SYS-H1",
+      "id": "SYS-RQ1",
+      "question": "Can one public synthetic fixture traverse DataForge, Training, Inference, Evaluator, analysis, and the Git journal under frozen identities?"
+    }
+  ],
+  "schema": "cognityx.research.public-preregistration/v1",
+  "software_identities": [
+    {
+      "component": "cognityx-dataforge",
+      "git_revision": "5bb8c1fea5385036a6be13f774f987617fb1ef38",
+      "package_name": "cognityx-dataforge",
+      "package_version": "0.1.0"
+    },
+    {
+      "component": "cognityx-evaluator",
+      "git_revision": "e951ac66c8ba60261912f71450d7f2cdfd8a5a4a",
+      "package_name": "cognityx-evaluator",
+      "package_version": "0.1.0"
+    },
+    {
+      "component": "cognityx-experiments",
+      "git_revision": "21ee997fb15c4063e438e24e69cbd720107347ca",
+      "package_name": "cognityx-experiments",
+      "package_version": "0.1.0"
+    },
+    {
+      "component": "cognityx-inference",
+      "git_revision": "6da9341cafb1fb32757abd9395ae97c7e741cd9c",
+      "package_name": "cognityx-inference",
+      "package_version": "0.1.0"
+    },
+    {
+      "component": "cognityx-observability",
+      "git_revision": "b02ec3c103d0b3fd22b7c33888155b763d6baa9f",
+      "package_name": "cognityx-observability",
+      "package_version": "0.1.0"
+    },
+    {
+      "component": "cognityx-resource",
+      "git_revision": "b23220b69fcb182e681cf13276c37474666c9bd2",
+      "package_name": "cognityx-resource",
+      "package_version": "0.1.0"
+    },
+    {
+      "component": "cognityx-storage",
+      "git_revision": "4b47b898b2fb465263d8c44350d4241f52b13c90",
+      "package_name": "cognityx-storage",
+      "package_version": "0.1.0"
+    },
+    {
+      "component": "cognityx-training",
+      "git_revision": "f62a280a8b427d5e3612011603cc951c961bf410",
+      "package_name": "cognityx-training",
+      "package_version": "0.1.0"
+    }
+  ]
+}
