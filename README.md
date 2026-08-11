@@ -34,6 +34,18 @@ Cognityx Storage remains the authoritative rich evidence location. A public Git
 summary is useful for review and paper preparation, but it is not a replacement
 for the access-controlled evidence and publication receipt in Storage.
 
-This bootstrap contains no synthetic or real scientific result.
+## Current journal state
+
+The journal currently contains the immutable `EXP-SYS-E2E-001` engineering
+shakedown history. Preregistration-only snapshot directories record attempts
+that did not reach terminal publication; they must not be read as completed
+executions. Snapshot
+`73e48df5e55bb16f31af861ea892a057c2f513a726b95725454366c67d905841`
+is the successful `system-validation-e2e-008` terminal publication.
+
+That terminal snapshot proves the application lifecycle and safe resume path.
+It is explicitly system validation, not TRAIN-H1 scientific evidence, and its
+finding remains honestly inconclusive because the primary endpoint was not
+finalized. Earlier snapshots and preregistrations remain immutable provenance.
 
 See [SCHEMA.md](SCHEMA.md) for immutable snapshot and journal conventions.
